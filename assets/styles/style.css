@@ -1,0 +1,60 @@
+
+
+#error{
+    color: red;
+    width: 250px;
+    font-size: small;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-layer{
+    height: 100px;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+}
+.cross-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.bell-btn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+input{
+    display: block;
+    margin: 8px;
+}
+input[type=button]{
+    margin: 4px;
+    display: inline;
+}
